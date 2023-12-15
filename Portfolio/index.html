@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RVS | Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Santarin.jpg" alt="Richard hanrick" width="80" class="picture">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Roshan V. Santarin</h1>
+
+          <p class="title">Student</p>
+		  <br>
+          <p class="title">Freelancer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">shankozky@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+63 9267312537</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-11-13">November 13, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>1023 Rosalia Village, Habay II, Bacoor City, Cavite, 4102</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/rovillasan" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/_syanibee" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/patatashan/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hey there! I'm Roshan, a freelancing graphic designer and web developer. 
+			Passionate about visual storytelling, I craft captivating designs that speak volumes. 
+			With web development skills, I breathe life into these designs, building immersive digital experiences. 
+			Let's collaborate and turn your ideas into captivating realities!
+          </p>
+
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Services</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality web designs made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+           
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+
+                <p class="service-item-text">
+                  Dverse range of visually compelling and conceptually strong creations.
+                </p>
+              </div>
+
+            </li>
+
+           <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - testimonials
+        -->
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+     
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+    
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphic design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+			
+			<li class="filter-item">
+              <button data-filter-btn>Others</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphic design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+		
+            </ul>
+
+          </div>
+		 
+		 <!--
+      - #PLIST
+    -->
+
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://drive.google.com/file/d/1u11ENxmhty1J16nyaMAl6wruhguoLIsB/view?usp=drive_link " target="_blank" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="./assets/images/vector.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vector</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://drive.google.com/file/d/1evEMqRFrXFHULxsKAZyYWYOMRQZQBw2W/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="./assets/images/layout.png" alt="banner" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Layout</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+			
+				
+		<li class="project-item  active" data-filter-item data-category="others">
+              <a href="https://drive.google.com/file/d/1F-PwyeR8Cu0ksIG0oMgV-oifnj_eJ1I5/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+				
+
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/infographic2.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Infographic</h3>
+
+                <p class="project-category">Others</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://drive.google.com/file/d/13t8QxjVnlVj0gz_8i_JBSNjlTc6H5FMx/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="./assets/images/calendar.png" alt="Calendar" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Calendar</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://drive.google.com/file/d/1_ATBy8dbMqiaiPEviu4qsuMfJlIPS-wT/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="./assets/images/apparel.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Apparel</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://drive.google.com/file/d/13CSU_sTRncMZfTUY5c3xMK-hJa6wDOXn/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="./assets/images/regis.png" alt="ACOMSS Registration Form" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ACOMSS Registration Form</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://thelilypad.shop" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="./assets/images/website.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lilypad</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://drive.google.com/file/d/13CSU_sTRncMZfTUY5c3xMK-hJa6wDOXn/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="./assets/images/heal.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Healing images</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+			
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://drive.google.com/file/d/1VrxqaJzlCV4ytPmYb3dvpaxeXEBT8y1b/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="./assets/images/selection.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Selection tools</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>			
+	
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://drive.google.com/file/d/1Z565lHA7JEcwwCCVfDiJR0WSn3ZUOQE2/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="./assets/images/content.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Content aware</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+			
+	
+         
+		 	<li class="project-item  active" data-filter-item data-category="others">
+              <a href="https://drive.google.com/file/d/1l8Tff4XyCE9aDGC09j--veDju1QkLULN/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/infographic1.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Infographic</h3>
+
+                <p class="project-category">Others</p>
+
+              </a>
+            </li>
+			
+		 	<li class="project-item  active" data-filter-item data-category="others">
+              <a href="https://drive.google.com/file/d/1w0pIWS_-rE0LT0eviFOzf5OAOUI8aWDn/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">	 	
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/lyric.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lyric Art</h3>
+
+                <p class="project-category">Others</p>
+
+              </a>
+            </li>
+
+		 	<li class="project-item  active" data-filter-item data-category="others">
+              <a href="https://drive.google.com/file/d/1z1uSgn69vr3U2HKgSUUGGrLB0AMX_guy/view?usp=drive_link" target="_blank">
+
+                <figure class="project-img">
+                 <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pubmat.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pubmat</h3>
+
+                <p class="project-category">Others</p>
+
+              </a>
+            </li>			
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps?width=485&amp;height=297&amp;hl=en&amp;q=ROSALIA+VILLAGE+Bacoor+(Location)&amp;t&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
